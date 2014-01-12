@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>missile</key>
+	<dict>
+		<key>sprite</key>
+		<string>missile.png</string>
+		<key>damage</key>
+		<integer>0</integer>
+		<key>doesBounce</key>
+		<false/>
+		<key>numBounces</key>
+		<integer>0</integer>
+	</dict>
+	<key>gravity_bomb</key>
+	<dict>
+		<key>sprite</key>
+		<string>laserShot0.png</string>
+		<key>damage</key>
+		<integer>0</integer>
+		<key>doesBounce</key>
+		<false/>
+		<key>numBounces</key>
+		<integer>0</integer>
+	</dict>
+	<key>lazer</key>
+	<dict>
+		<key>sprite</key>
+		<string>laserGreen.png</string>
+		<key>damage</key>
+		<integer>1</integer>
+		<key>doesBounce</key>
+		<false/>
+		<key>numBounces</key>
+		<integer>0</integer>
+	</dict>
+	<key>bouncer</key>
+	<dict>
+		<key>sprite</key>
+		<string>laserShot0.png</string>
+		<key>damage</key>
+		<integer>0</integer>
+		<key>doesBounce</key>
+		<true/>
+		<key>numBounces</key>
+		<integer>6</integer>
+	</dict>
+</dict>
+</plist>

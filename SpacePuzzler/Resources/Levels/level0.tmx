@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="12" height="16" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="tiles3" tilewidth="64" tileheight="64">
+  <image source="tiles3.png" width="640" height="640"/>
+ </tileset>
+ <layer name="Tiles" width="12" height="16">
+  <data encoding="base64" compression="zlib">
+   eJyTZGBg4CIS8wMxEwPxgB2IGUlQz0GiejYglgZiETQMA+jiUmS4h5lE9aSaT2v301o9qekB3b9iDJj+RPYvrQEAoIcDkA==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="12" height="16">
+  <object name="Spawn Point" x="406" y="800" width="27" height="32"/>
+  <object name="gui" x="0" y="896" width="768" height="128"/>
+ </objectgroup>
+ <objectgroup name="Walls" width="12" height="16">
+  <object name="wall2" x="32" y="870" width="704" height="26"/>
+  <object name="wall1" x="736" y="0" width="32" height="896"/>
+  <object name="wall3" x="0" y="0" width="32" height="896"/>
+  <object name="wall0" x="32" y="0" width="704" height="22"/>
+  <object name="wall4" x="32" y="294" width="288" height="26"/>
+  <object name="wall5" x="448" y="294" width="288" height="26"/>
+  <object name="wall7" x="32" y="550" width="288" height="26"/>
+  <object name="wall6" x="448" y="550" width="288" height="26"/>
+  <object name="wall6" x="448" y="550" width="288" height="26"/>
+ </objectgroup>
+ <objectgroup name="Enemies" width="12" height="16">
+  <object name="enemy0" x="77" y="207" width="24" height="23"/>
+  <object name="enemy1" x="665" y="204" width="24" height="23"/>
+  <object name="enemy3" x="665" y="457" width="24" height="23"/>
+  <object name="enemy2" x="81" y="464" width="24" height="23"/>
+ </objectgroup>
+</map>

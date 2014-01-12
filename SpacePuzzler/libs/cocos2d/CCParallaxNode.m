@@ -28,18 +28,7 @@
 #import "Support/CGPointExtension.h"
 #import "Support/ccCArray.h"
 
-@interface CGPointObject : NSObject
-{
-	CGPoint	ratio_;
-	CGPoint offset_;
-	CCNode *child_;	// weak ref
-}
-@property (nonatomic,readwrite) CGPoint ratio;
-@property (nonatomic,readwrite) CGPoint offset;
-@property (nonatomic,readwrite,assign) CCNode *child;
-+(id) pointWithCGPoint:(CGPoint)point offset:(CGPoint)offset;
--(id) initWithCGPoint:(CGPoint)point offset:(CGPoint)offset;
-@end
+
 @implementation CGPointObject
 @synthesize ratio = ratio_;
 @synthesize offset = offset_;

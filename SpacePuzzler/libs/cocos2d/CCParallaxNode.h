@@ -32,6 +32,19 @@
  The children will be moved faster / slower than the parent according the the parallax ratio.
 
  */
+@interface CGPointObject : NSObject
+{
+	CGPoint	ratio_;
+	CGPoint offset_;
+	CCNode *child_;	// weak ref
+}
+@property (nonatomic,readwrite) CGPoint ratio;
+@property (nonatomic,readwrite) CGPoint offset;
+@property (nonatomic,readwrite,assign) CCNode *child;
++(id) pointWithCGPoint:(CGPoint)point offset:(CGPoint)offset;
+-(id) initWithCGPoint:(CGPoint)point offset:(CGPoint)offset;
+@end
+
 @interface CCParallaxNode : CCNode
 {
 	ccArray				*parallaxArray_;

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>level0</key>
+	<dict>
+		<key>child2</key>
+		<dict>
+			<key>y</key>
+			<real>1000</real>
+			<key>x</key>
+			<integer>100</integer>
+			<key>spriteName</key>
+			<string>px_anomaly.png</string>
+		</dict>
+		<key>child1</key>
+		<dict>
+			<key>y</key>
+			<integer>500</integer>
+			<key>x</key>
+			<integer>600</integer>
+			<key>spriteName</key>
+			<string>Nebula2.png</string>
+		</dict>
+		<key>child0</key>
+		<dict>
+			<key>y</key>
+			<integer>0</integer>
+			<key>x</key>
+			<integer>200</integer>
+			<key>spriteName</key>
+			<string>Nebula1.png</string>
+		</dict>
+		<key>bgSpeed</key>
+		<real>0.05</real>
+		<key>numChildren</key>
+		<integer>3</integer>
+		<key>yReset</key>
+		<integer>2000</integer>
+	</dict>
+</dict>
+</plist>
